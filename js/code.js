@@ -1,4 +1,4 @@
-const platform = new H.service.Platform({ apikey: 'LxeCNp19DhlHz3ni1jRPvjfjmJYltSV9brYnIL-_8iQ' });
+const platform = new H.service.Platform({ apikey: '2Kmt6qzaAJDFb6yfvIm4xBIs2SrqqYX9hf7rppTx_cY' });
       const defaultLayers = platform.createDefaultLayers();
       const map = new H.Map(document.getElementById('map'),
          defaultLayers.vector.normal.map, {
